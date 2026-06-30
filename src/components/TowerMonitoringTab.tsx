@@ -212,9 +212,8 @@ export default function TowerMonitoringTab({
           <div>
             <h3 className="text-sm font-bold text-slate-800 tracking-tight uppercase font-mono flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
-              Geographic Site Monitor
+              Geographic Site Monitoring
             </h3>
-            <p className="text-[10px] text-slate-500 font-mono mt-0.5">Klik pada marker site di peta untuk melihat detail data site, status sensor, dan alarm aktif.</p>
           </div>
           {!hasValidKey && (
             <div className="flex bg-slate-100 p-0.5 rounded-xl text-[10px] font-mono font-bold self-start sm:self-auto">
